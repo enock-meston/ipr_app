@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".fragments.HomeFragment">
+
+    <LinearLayout
+        android:layout_margin="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtWelcome"
+            android:textAlignment="center"
+            android:textSize="32sp"/>
+
+        <Button
+            android:id="@+id/shadahBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SHADAH" />
+
+        <Button
+            android:id="@+id/sawmBnt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SAWM" />
+
+        <Button
+            android:id="@+id/zakatBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ZAKAT" />
+
+        <Button
+            android:id="@+id/hajjBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apply For HAJJ" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
